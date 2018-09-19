@@ -14,7 +14,7 @@ From Michael Love (DESeq2) - https://support.bioconductor.org/p/76099/
 
 Batch effects are gene-specific, and DESeq2 fits gene-specific coefficients for the batch term. If you want to get an idea how much batch variability contributes to a PCA plot, I've recommended the following approach on the support site before: variance stabilize the counts, apply limma's removeBatchEffect to assay(vsd), then use plotPCA to plot the residuals.
 
-```
+```R
 # Make some simulated data with a batch effect:
 dds <- makeExampleDESeqDataSet(betaSD=1,interceptMean=10)
 dds$batch <- factor(rep(c("A","B"),each=6))
@@ -34,7 +34,7 @@ DASC is an R package used for identifying batches and classifying samples into d
 
 ### Rtools 3.5 is incompatible with R 3.5 in Windows
 Fix posted at https://community.rstudio.com/t/error-dependency-transformr-is-not-available-for-package-gganimate/11134/3
-```
+```R
 # Set path of Rtools
 Sys.setenv(PATH = paste(Sys.getenv("PATH"), "*InstallDirectory*/Rtools/bin/",
                        "*InstallDirectory*/Rtools/mingw_64/bin", sep = ";")) #for 64 bit version
