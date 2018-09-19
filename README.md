@@ -1,6 +1,13 @@
 # eureka
 Collection of useful bits used to elucidate pesky little mysteries
 
+## NGS / scRNA-Seq
+
+### Getting ZINB-WaVE and Seurat working
+- Rmd - https://github.com/c5creative/eureka/blob/master/zinbwave-seurat.rmd
+- KnitR - http://htmlpreview.github.io/?https://github.com/c5creative/eureka/blob/master/zinbwave-seurat.html
+
+
 ## NGS / RNA-Seq
 
 ### Mapped reads disappear when counting reads (HT-Seq, FeatureCouts)
@@ -49,3 +56,5 @@ find_rtools() # is TRUE now
 devtools::install_github("thomasp85/transformr")
 devtools::install_github("dgrtwo/gganimate")
 ```
+
+
