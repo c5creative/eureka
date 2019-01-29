@@ -37,6 +37,7 @@ plotPCA(vsd, "batch")
 ### DASC
 DASC is an R package used for identifying batches and classifying samples into different batches in a high dimensional gene expression dataset. The batch information can be further used as a covariate in conjunction with other variables of interest among standard bioinformatics analysis like differential expression analysis. https://github.com/zhanglabNKU/DASC
 
+
 ## R
 
 ### Rtools 3.5 is incompatible with R 3.5 in Windows
@@ -56,5 +57,10 @@ find_rtools() # is TRUE now
 devtools::install_github("thomasp85/transformr")
 devtools::install_github("dgrtwo/gganimate")
 ```
+
+## Random links
+* https://hbctraining.github.io/DGE_workshop/lessons/05_DGE_DESeq2_analysis2.html
+* https://dwheelerau.com/2014/02/17/how-to-use-deseq2-to-analyse-rnaseq-data/
+* https://drsimonj.svbtle.com/visualising-residuals
 
 
