@@ -1,0 +1,15 @@
+# UMAP testing
+# 
+
+```{r}
+library(umap)
+```
+## Get some data
+
+```{r}
+iris.data = iris[, grep("Sepal|Petal", colnames(iris))]
+iris.labels = iris[, "Species"]
+iris.umap = umap(iris.data)
+iris.umap
+```
+
