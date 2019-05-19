@@ -62,5 +62,5 @@ devtools::install_github("dgrtwo/gganimate")
 * https://hbctraining.github.io/DGE_workshop/lessons/05_DGE_DESeq2_analysis2.html
 * https://dwheelerau.com/2014/02/17/how-to-use-deseq2-to-analyse-rnaseq-data/
 * https://drsimonj.svbtle.com/visualising-residuals
-
+* VMware/Ubuntu18.10 full screen issue fix -- https://github.com/vmware/open-vm-tools/issues/303 
 
