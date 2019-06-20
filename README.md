@@ -63,4 +63,5 @@ devtools::install_github("dgrtwo/gganimate")
 * https://dwheelerau.com/2014/02/17/how-to-use-deseq2-to-analyse-rnaseq-data/
 * https://drsimonj.svbtle.com/visualising-residuals
 * VMware/Ubuntu18.10 full screen issue fix -- https://github.com/vmware/open-vm-tools/issues/303 
+* Ubuntu 18.* - https://askubuntu.com/questions/967842/how-to-remove-phone-style-gnome-swipe-to-unlock remove annoying screen 'lock/swipe'
 
