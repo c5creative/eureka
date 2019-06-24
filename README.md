@@ -65,3 +65,10 @@ devtools::install_github("dgrtwo/gganimate")
 * VMware/Ubuntu18.10 full screen issue fix -- https://github.com/vmware/open-vm-tools/issues/303 
 * Ubuntu 18.* - https://askubuntu.com/questions/967842/how-to-remove-phone-style-gnome-swipe-to-unlock remove annoying screen 'lock/swipe'
 
+## Windows
+
+Add a new filetype to the right-click context menu
+1. Open registry editor
+2. go to HKEY_CLASSES_ROOT, look for filetype to add to menu
+3. Right click on it, create new KEY, name it `ShellNew`
+4. Right click new key, select ` New | String Value`, assign it a value of `NullFile`, then right click it and assign the data to `1`
